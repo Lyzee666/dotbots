@@ -1,0 +1,5 @@
+curl 'https://api.twilio.com/2010-04-01/Accounts/AC9ca6df56c849ee0c2949731392afcc49/Messages.json' -X POST \
+--data-urlencode 'To=+6283192887162' \
+--data-urlencode 'From=+13149071123' \
+--data-urlencode 'Body=Haloo sayang, coba liat 2 angka pertama hari pertama kita ketemu,2 angka kedua hari pertama kita post foto berdua,dan 6 angka terakhir merupakan tanggal,bulan,tahun kita jadian.' \
+-u AC9ca6df56c849ee0c2949731392afcc49:[AuthToken]
